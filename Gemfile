@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
+gem 'bootstrap-sass', '2.1'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
@@ -16,7 +17,7 @@ group :assets do
   gem 'uglifier', '1.2.3'
 end
 
-gem 'jquery-rails', '2.0.0'
+gem 'jquery-rails', '2.2.1'
 
 group :test do
   gem 'capybara', '1.1.2'
@@ -30,6 +31,6 @@ end
 group :test do
   gem 'rspec-rails', '2.9.0'
   gem 'capybara', '1.1.2'
-  gem 'rb-fsevent', '0.4.3.1', :require => false
+  gem 'rb-fsevent', '0.9.3', :require => false
   gem 'growl', '1.0.3'
 end
